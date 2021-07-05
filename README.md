@@ -1,4 +1,9 @@
-### Hi there 👋
+### hello, world!
+🤓💻🏃🏾🏔📷🎨🎷🎮📚
+
+![runwuf's Github stats](https://github-readme-stats.vercel.app/api?username=runwuf&count_private=true&hide=stars,prs,issues,contribs&show_icons=true&theme=blue-green)
+
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=runwuf&hide=runwuf&count_private=true&show_icons=true&theme=nightowl)](https://github.com/anuraghazra/github-readme-stats)
 
 <!--
 **runwuf/runwuf** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.

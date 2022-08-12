@@ -10,7 +10,7 @@
 * acks ( how many ack before message is produced. acks=-1 means ALL)
 * max.inflight.requests.per.connection (>1 can affect ordering unless enable.idemoptence is true)
 * enable.idempotence (Ensuring exactly once )
-* 
+* As a general rule of thumb, the recommendation is to have max 4000 partitions per broker, and max 200 000 partitions per cluster.
 
 # Consumer
 * partition.assignment.strategy - Range, RoundRobin, Sticky, Cooperative Sticky.

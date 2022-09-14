@@ -28,3 +28,8 @@
 # Kafka Connect
 * Kafka Connect -  try increasing ``tasks.max`` to match the **number of partitions**.
 * Aiven S3 sink connector supports parquet, Confluent S3 sink connector supports **Exactly Once** delivery on top of eventual consistency.
+
+# Karapace
+* Karapace runs in leader-replica mode on all nodes, so requests are load balanced (write requests are internally routed to leader)
+* Karapace is compatible with Schema Registry 6.1.1 on API level.
+* Karapace uses asynchronous architecture based on aiohttp

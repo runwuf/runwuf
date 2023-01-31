@@ -4,6 +4,7 @@
 * Apache Kafka client trying to produce or consume messages might face warning ``leader not found messages`` as the partitions are moved between brokers.
 * Topic ordering is guaranteed only per partition. If you require relative ordering of records, you need to put that subset of data into the same partition.
 * Kafka Producer is thread-safe, but Consumer is NOT thread-safe
+* Kafka supports each broker to have up to 4,000 partitions and each cluster to have up to 200,000 partitions. 
 
 # Producer
 * Bigger batches increase throughput but also increase the latency for individual messages. Conversely, using smaller batches decreases message processing latency, but the overhead per message increases and the overall throughput decreases. ``[batch.size]`` ``[linger.ms]``
